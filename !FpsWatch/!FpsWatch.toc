@@ -1,0 +1,11 @@
+## Interface: 11200
+## Title: FpsWatch
+## Notes: Records FPS during boss fights and tells you why it dropped: addon code, Lua garbage collection, event spam, nameplates or graphics. /fpsw
+## Version: 1.0.0
+## SavedVariables: FpsWatchDB
+
+Core.lua
+Profiler.lua
+Session.lua
+Analysis.lua
+UI.lua
