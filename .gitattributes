@@ -1,0 +1,4 @@
+# Keep line endings deterministic. The database files are generated with LF and
+# a checkout that rewrote them to CRLF would show every file as modified the
+# next time anything is regenerated.
+* text=auto eol=lf

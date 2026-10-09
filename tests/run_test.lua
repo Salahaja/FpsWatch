@@ -9,7 +9,7 @@ if variant == "notimer" then
 end
 local rawCreate = CreateFrame
 
-local ADDON = "!FpsWatch/"
+local ADDON = ""
 local function Load(path, chunk)
   local f = assert(io.open(path))
   local src = f:read("*a")

@@ -13,8 +13,10 @@ The report also lines drops up with the fight: boss casts and yells from the com
 
 ## Install
 
-1. Copy the `!FpsWatch` folder into `World of Warcraft\Interface\AddOns\`.
-   If you downloaded the GitHub zip, the folder is inside `Fpswatch-main\`.
+1. In OctoLauncher's Addons tab, install **FpsWatch** from *Our addons*. It goes into the
+   right folder and updates like any other addon. Or clone it yourself:
+   `git clone https://github.com/Salahaja/FpsWatch "World of Warcraft/Interface/AddOns/!FpsWatch"`.
+   From the GitHub zip, rename the unpacked `FpsWatch-main` folder to `!FpsWatch`.
 2. The folder must be named exactly `!FpsWatch`. The `!` makes it load before your other addons, which is how it learns which addon created each frame.
 3. Log in and type `/fpsw test`. After about 11 seconds a report opens and blames `FpsWatchSelfTestFrame` for the fake lag. If it does, everything works.
 
